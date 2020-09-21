@@ -29,7 +29,7 @@ function SignIn() {
       .then((auth) => {
         // it successfully created a new user with email and password
         if (auth) {
-          toast.success("Cool you succeeded, you can now ");
+          toast.success("Cool you succeeded, you can now Sign in ");
         }
       })
       .catch((error) => {

@@ -1,7 +1,8 @@
 import React from "react";
+import "./Page.css";
 
 function Page() {
-  return <div>Your Page</div>;
+  return <div className="page">Your Page here</div>;
 }
 
 export default Page;
